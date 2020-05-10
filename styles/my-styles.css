@@ -1,0 +1,58 @@
+html {
+  scroll-behavior: smooth;
+}
+
+.navbar {
+  background-color: red;
+}
+
+.navbar-brand, .nav-link {
+  color: #fff !important;
+}
+
+.navbar-brand:hover, .nav-link:hover{
+  color: gold !important
+}
+
+.dropdown-menu {
+  background-color: pink !important 
+}
+
+@media (max-width: 600px){
+  
+  .carousel 
+  display: none;  
+}
+
+.fa-row {
+  background-color: Gold;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.fab, .fas, .My-font-awesome{
+  font-size: 60px;
+}
+.fab:hover, .My-font-awesome:hover {
+  color: Red;
+}
+.my-goolge-font{
+  text-align: center;
+  font-family: Akronim;
+  font-size: 40px;
+}
+
+.video-row {
+  text-allign: center;
+  padding: 32px;
+}
+
+.google-font-sample {
+  text-align: left !important;
+  font-family: Akronim;
+  font-size: 28px;
+  padding-left: 40px;
+}
+

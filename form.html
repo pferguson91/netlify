@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Volunteer Form</title>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.0/jquery.js" integrity="sha256-r/AaFHrszJtwpe+tHyNi/XCfMxYpbsRg2Uqn0x3s2zc=" crossorigin="anonymous"></script>
+  
+  
+  <style>
+    .my-form{
+  margin: 3px;
+}
+  </style>
+</head>
+<body>
+
+ <h1>Buy Now</h1> 
+  <form method="post" netlify>
+    Your Name: <input class="my-form" type="text" name="your_name" value="" /> <br />
+    Your Email: <input class="my-form" type="email" name="email" value="" required /> <br/>
+    
+    Gender: <br />
+    <input class="my-form" type="radio" name="gender" value="female" required />Female <br />
+    <input class="my-form" type="radio" name="gender" value="Male" />Male <br />
+    
+    T-shirt size:
+    <select class="my-form" name="t_size" id="t-size" required>
+      <option value="">pick a shirt size</option>
+      <option value="XS">XS</option>
+      <option value="S">S</option>
+      <option value="M">M</option>
+      <option value="L">L</option>
+      <option value="XL">XL</option>
+      <option value="XXL">XXL</option>
+      <option value="other">Other</option>
+    </select>
+    <br />
+    Other: <input class="my-form" type="text" name="other" id="other" disabled />
+    
+    <br />
+    <p>Time(s) of day you would like to recieve game</p>
+    <input class="my-form" type="checkbox" name="v_time" value="morning" />Morning
+    <input class="my-form" type="checkbox" name="v_time" value="afternoon" />Afternoon
+    <input class="my-form" type="checkbox" name="v_time" value="evening" />Evening
+    
+    <p>Additional Comments</p>
+    <textarea name="comments" cols="50" rows="5"></textarea>
+    <br />
+    <input type="submit" name="submit" value="Register" />
+   <form/>
+    <script src="scripts/my-scripts.js"></script>
+</body>
+</html>
